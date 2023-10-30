@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Empresa de Servicios Tencios</title>
+</head>
+<body>
+    <div id="principal">
+        <div id="encabezado">
+            <h1>Servicios Tenicos Franz SA</h1>
+        </div>
+        <header>
+            <nav id="barra-navegacion">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#descripcion">Descripción</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#testimoniales">Testimoniales</a></li>
+                    <li><a href="#formulario">Contacto</a></li>
+                    <li><a href="#noticias">Noticias</a></li>
+                    <li><a href="#precios">Precios</a></li>
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="#faq">Preguntas Frecuentes</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Bienvenido a nuestra empresa de servicios. Ofrecemos soluciones de alta calidad para todas tus necesidades.</p>
+        </section>
+    
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <address>
+                <p>Dirección: Calle Principal, Ciudad</p>
+                <p>Teléfono: (123) 456-7890</p>
+                <p>Correo Electrónico: info@empresa.com</p>
+            </address>
+        </section>
+    
+        <section id="descripcion">
+            <h2>Descripción de la Empresa</h2>
+            <p>Somos una empresa dedicada a proporcionar servicios de alta calidad a nuestros clientes. Nuestro equipo de expertos está listo para ayudarte.</p>
+        </section>
+    
+        <section id="portafolio">
+            <h2>Ejemplos de Nuestro Trabajo</h2>
+        
+            <div class="proyecto">
+                <img src="Instalacion-electricca-de-una-vivienda.png" alt="Proyecto 1">
+                <h3>Instalación de Cableado Eléctrico Residencial</h3>
+                <p>Realizamos una instalación completa de cableado eléctrico en una casa residencial, garantizando seguridad y eficiencia energética.</p>
+            </div>
+        
+            <div class="proyecto">
+                <img src="Mantenimiento-de-Instalaciones-Electrica.jpg" alt="Proyecto 2">
+                <h3>Mantenimiento de Sistemas Eléctricos Industriales</h3>
+                <p>Nuestro equipo de expertos realizó un mantenimiento preventivo en una fábrica, asegurando la continuidad de la producción.</p>
+            </div>
+        
+            <div class="proyecto">
+                <img src="placas-solares.jpg" alt="Proyecto 3">
+                <h3>Instalación de Paneles Solares</h3>
+                <p>Contribuimos a la sostenibilidad ambiental instalando paneles solares en una empresa, reduciendo su dependencia de la red eléctrica convencional.</p>
+            </div>
+        </section>
+        
+    
+        <section id="testimoniales">
+            <h2>Testimoniales</h2>
+            <div class="testimonio">
+                <img src="testimonio1.jpg" alt="testimonio1">
+                <h3>Jane Doe</h3>
+                <p>"Estoy muy impresionada con los servicios eléctricos de esta empresa. Realizaron una instalación eléctrica en mi hogar de manera eficiente y profesional. ¡Altamente recomendados!"</p>
+            </div>
+        
+            <div class="testimonio">
+                <img src="testimonio2.jpg" alt="testimonio2">
+                <h3>John Smith</h3>
+                <p>"Nunca me había sentido tan tranquilo con un equipo de electricistas. Solucionaron un problema eléctrico en mi empresa de manera rápida y económica. Excelente trabajo."</p>
+            </div>
+        </section>
+    
+        <section id="formulario">
+            <h2>Formulario de Contacto</h2>
+            <p>Utiliza este formulario para ponerte en contacto con nosotros. Estaremos encantados de atenderte.</p>
+        
+            <form action="procesar_formulario.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+        
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+        
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+        
+    
+        <section id="noticias">
+            <h2>Noticias</h2>
+            <article class="noticia">
+                <img src="noticia1.jpg" alt="Imagen de la Noticia 1">
+                <h3>Título de la Noticia 1</h3>
+                <p>Fecha de Publicación: 29 de Octubre de 2023</p>
+                <p>Descripción breve de la noticia o artículo. Puedes proporcionar información sobre eventos, logros o actualizaciones relevantes de tu empresa.</p>
+                <a href="enlace_noticia1.html">Leer más</a>
+            </article>
+        </section>
+    
+        <section id="precios">
+            <h2>Página de Precios</h2>
+        
+            <div class="plan">
+                <h3>Plan Básico</h3>
+                <p>El Plan Básico incluye:</p>
+                <ul>
+                    <li>Inspección eléctrica inicial</li>
+                    <li>Mantenimiento preventivo</li>
+                    <li>Asesoramiento personalizado</li>
+                </ul>
+                <p class="precio">Precio: $X/mes</p>
+                <a href="contacto.html" class="boton">Solicitar Cita</a>
+            </div>
+        
+            <div class="plan">
+                <h3>Plan Estándar</h3>
+                <p>El Plan Estándar incluye:</p>
+                <ul>
+                    <li>Inspección eléctrica inicial</li>
+                    <li>Reparaciones menores</li>
+                    <li>Mantenimiento programado</li>
+                    <li>Asesoramiento personalizado</li>
+                </ul>
+                <p class="precio">Precio: $Y/mes</p>
+                <a href="contacto.html" class="boton">Solicitar Cita</a>
+            </div>
+        
+            <div class="plan">
+                <h3>Plan Premium</h3>
+                <p>El Plan Premium incluye:</p>
+                <ul>
+                    <li>Inspección eléctrica inicial</li>
+                    <li>Reparaciones y mejoras eléctricas</li>
+                    <li>Mantenimiento programado regular</li>
+                    <li>Soporte 24/7</li>
+                </ul>
+                <p class="precio">Precio: $Z/mes</p>
+                <a href="contacto.html" class="boton">Solicitar Cita</a>
+            </div>
+        </section>
+        
+    
+        <section id="recursos">
+            <h2>Página de Recursos</h2>
+        
+            <article class="recurso">
+                <h3>Guía para el Mantenimiento Eléctrico</h3>
+                <p>Una guía detallada sobre cómo realizar el mantenimiento eléctrico en tu hogar o negocio.</p>
+                <a href="recursos/guia_mantenimiento.pdf" target="_blank">Descargar PDF</a>
+            </article>
+        
+            <article class="recurso">
+                <h3>Video Tutorial: Cómo Cambiar un Interruptor</h3>
+                <p>Un video tutorial que te muestra cómo cambiar un interruptor eléctrico de forma segura.</p>
+                <a href="https://www.youtube.com/watch?v=ejemplo" target="_blank">Ver Video</a>
+            </article>
+        
+            <article class="recurso">
+                <h3>Artículo: Consejos para Ahorrar Energía</h3>
+                <p>Consejos y trucos para reducir el consumo de energía en tu hogar o empresa.</p>
+                <a href="articulos/consejos_ahorro_energia.html">Leer Artículo</a>
+            </article>
+        </section>
+        
+    
+        <section id="faq">
+            <h2>Preguntas Frecuentes</h2>
+        
+            <div class="pregunta">
+                <h3>¿Cuáles son los servicios eléctricos que ofrecen?</h3>
+                <p>Ofrecemos una amplia gama de servicios eléctricos, incluyendo instalación, reparación, mantenimiento y consultoría eléctrica. Puedes obtener más información en nuestra página de <a href="#servicios">servicios</a>.</p>
+            </div>
+        
+            <div class="pregunta">
+                <h3>¿Cuál es el costo de una inspección eléctrica?</h3>
+                <p>El costo de una inspección eléctrica varía según el tipo de servicio y la magnitud del trabajo. Te recomendamos <a href="#precios">consultar nuestra página de precios</a> para obtener información detallada sobre los costos.</p>
+            </div>
+        
+            <div class="pregunta">
+                <h3>¿Cuáles son sus horarios de atención?</h3>
+                <p>Estamos disponibles de lunes a viernes de 8:00 AM a 6:00 PM y los sábados de 9:00 AM a 2:00 PM. Si necesitas asistencia fuera de estos horarios, contáctanos para coordinar una cita especial.</p>
+            </div>
+        </section>
+        
+    
+        <footer>
+            <p>&copy; 2023 Empresa de Servicios</p>
+        </footer>
+        
+    </div>
+</body>
+</html>
+    
